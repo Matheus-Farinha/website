@@ -103,12 +103,15 @@ li {
     border-bottom: 2px solid white;
 }
 
+
+
 .search_area {
     float: right;
     margin-top: -20px;
     margin-right: 15px;
 }
 
+/*
 .search-field {
     border: none;
     background-color: #282b2f;
@@ -133,6 +136,7 @@ li {
     margin-right: 5px;
     cursor:auto;
 }
+*/
 
 .icon img {
     height: 30px;
@@ -179,8 +183,13 @@ li {
     border-bottom-right-radius: 5px;
 }
 
+footer {
+    bottom: 0;
+    
+}
+
 .footer {
-    bottom: -35%;
+    margin-top: 10%;
     position: absolute;
     width:100%;
     background-color: #47412d5b;
@@ -473,6 +482,8 @@ iframe {
         height: 150px;
     }
 }
+
+/*
 @media screen and (max-width: 376px) {
     .search-field {
         border: none;
@@ -510,6 +521,13 @@ iframe {
     margin-right: 2px;
     }
 }
+*/
+
+@media screen and (max-width: 376px) {
+    .horizontal {
+        width: 100%;
+    }
+}
 
 @media screen and (max-width: 376px) {
     .wpp_area a {
@@ -543,7 +561,7 @@ iframe {
         position: relative;
         z-index: 99;
         width:195px;
-        margin-right: 9%;
+        margin-right: 2%;
     }
 }
 @media screen and (max-width: 376px) {
@@ -579,33 +597,33 @@ iframe {
 @media screen and (max-width: 376px) {
     .image-slider {
         margin-left:10%;
+        margin-top: 0;
     }
 }
 
 @media screen and (max-width: 376px) {
     .main_footer_left, .main_footer_right {
         font-size: 10px;
-        margin-top: 3%;
-        
+        margin-top: 3%; 
     }
 }
 
 @media screen and (max-width: 376px) {
     .about:nth-child(1) {
-        font-size: 10px;
-        width:70%;
-        margin-left: 30%;
-        margin-top: -50%;
+        font-size: 12px;
+        width:100%;
+        margin-left: 10%;
+        margin-top: -55%;
 
     }
 }
 
 @media screen and (max-width: 376px) {
     .about:nth-child(2) {
-        font-size: 10px;
-        width:70%;
-        margin-left: 30%;
-        margin-top: 30%;
+        font-size: 12px;
+        width:100%;
+        margin-left: 10%;
+        margin-top: 40%;
 
     }
 }
@@ -615,6 +633,7 @@ iframe {
         width: 300px;
         height: 200px;
         margin-top:10%;
+        margin-left: 5%;
     }
 }
 
@@ -622,15 +641,16 @@ iframe {
     .forms {
         margin-top: 30%;
         margin-left:8%;
+        font-size: 10px;
     }
 }
 
 @media screen and (max-width: 376px) {
     .footer {
-        bottom: -5%;
+        bottom: -25%;
         width:100%;
         background-color: #47412d89;
         height: 40px;
-        position: absolute;
+
     }
 }

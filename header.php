@@ -58,7 +58,7 @@ $name = "Sobre";
                     </div>
 
                     <div class="container-fluid">
-                        <div class="row">
+                        <div class="row horizontal">
                             <div class="col-auto mr-auto">
                                 <div class="titulo">
                                     <h1>

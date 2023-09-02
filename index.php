@@ -3,7 +3,7 @@
 <section>
     <div class="container">
         <div class="row justify-content-between">
-            <div class="col-sm-7">
+            <div class="col-sm-7 content">
                 <p class="apresentation">
                 Somos uma empresa focada em serviços de usinagem e mandrilhamento na Região Metropolitana do Vale do Paraíba
             Localizada no Jardim Diamante, próxima a Petrobrás em São José dos Campos (Zona Leste). 
