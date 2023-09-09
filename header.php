@@ -5,9 +5,15 @@ $name = "Sobre";
 <html lang="pt-br">
 <head>
     <meta charset="utf-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="keywords" content="mandrilhadora, madrilhadora em sjc, mandrilhamento, mandrilhamento em São José dos Campos, usinagem em sjc, usinagem em São José dos Campos, Mandrilhadora floor type TOS WD130">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
     <?php wp_head(); ?>
+    
 </head>
 <body <?php body_class(); ?>>
     <header>
@@ -52,8 +58,7 @@ $name = "Sobre";
                             }
                         ?>
                         <div class="search_area">
-                            <?php get_search_form(); ?>
-                            
+                            <?php get_search_form(); ?>   
                         </div>
                     </div>
 
