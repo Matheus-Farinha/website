@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    background-color: #94898992;
+    background-color: #f2f2f2;
 }
 
 /*
@@ -20,7 +20,7 @@ body {
 */
 
 .container-fluid, .navbar {
-    color: #bbbbc1;
+    color: #bbbbc1; 
     position: absolute;
     font-size: 15px;
     height: 45px;
@@ -75,16 +75,18 @@ li {
 }
 
 .main_nav {
-    border-top: 2px solid #27292d;
-    border-left: 2px solid #27292d;
-    border-right: 2px solid #27292d;
+    border-top: 2px solid #717171;
+    border-left: 2px solid #717171;
+    border-right: 2px solid #717171;
     margin-top: -.65%;
     height:100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 
 .main_nav_border {
     height:100%;
-    border-top: 1px solid #36393c;
+    
 
 }
 
@@ -192,13 +194,12 @@ footer {
 }
 
 .footer {
-    margin-top: 10%;
     position: absolute;
     width:100%;
-    background-color: #47412d5b;
+    background-color: #a3a0955b;
     height: 55px;
     font-family: 'DM Sans', sans-serif;
-    border-top: 1px solid #fff;
+    border-top: 1px solid #0e0e0e;
 }
 
 .main_footer_left {
@@ -452,22 +453,25 @@ iframe {
     }
 }
 
+@media (max-width:480px) {
+    header {
+
+    }
+}
+
 @media (max-width: 480px) {
     .container {
         margin-top: 0;
         margin-left:0;
         margin-right: 0;
-        background-color: #ed4479;
-        margin-top:45%;
+        background-color: #f2f2f2;
     }
 }
-
 
 @media (max-width: 480px) {
     .main_nav {
         margin-left: 3%;
-        margin-top: -20.5%;
-        margin-top: -20.5%;
+        margin-top: .1%;
     }
 
 }
@@ -483,28 +487,40 @@ iframe {
 @media (max-width: 480px) {
     li {
         margin-left: 2%;
- 
     }
 }
 
 @media (max-width: 480px) {
     .nav>li>a {
-        padding-bottom: 20px;
+        padding-top: .5px;
+        padding-bottom: 21px;
         color: black;
+    }
+}
+
+@media (max-width:480px) {
+    .nav>li>a:hover,
+    .nav>li>a:focus {
+        background: #67a9838f;
+        color:white;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        border-bottom: 2px solid #635d5d;
+        box-shadow: 2px 2px 2px 1px rgb(119 135 119 / 78%);
     }
 }
 
 @media (max-width: 480px) {
     .main_header {
-        height: 34%;
-        background-color: #2d3034;
+        height: 195px;
+        background-color: #CDDC39;
     }
 }
 
 @media (max-width: 480px) {
     .custom-logo {
         height: 150px;
-        margin-top:-75%;
+       
     }
 }
 
@@ -641,7 +657,6 @@ iframe {
 
 @media (max-width:480px) {
     .d-block {
-
         height:230px;
         align-items: center;
         object-fit: cover;
@@ -659,8 +674,8 @@ iframe {
 @media (max-width: 480px) {
     .about:nth-child(1) {
         font-size: 12px;
-        width:100%;
-        margin-left: 2%;
+        width: 300px;
+        margin-left: -20%;
         margin-top: 20%;
         text-align: right;
     }
@@ -669,9 +684,9 @@ iframe {
 @media (max-width: 480px) {
     .about:nth-child(2) {
         font-size: 12px;
-        width:100%;
-        margin-left: 2%;
-        margin-top: 5%;
+        width: 300px;
+        margin-left: -20%;
+        margin-top: -6%;
         text-align: right;
     }
 }
@@ -680,26 +695,30 @@ iframe {
     iframe {
         width: 300px;
         height: 200px;
-        margin-top:10%;
-        margin-left: 5%;
+        margin-top:20%;
+        margin-left: -16%;
     }
 }
 
 @media (max-width: 480px) {
     .forms {
-        margin-top: 70%;
-        margin-right:10%;
+        margin-top: 30%;
+        margin-right:15%;
+        width:50%;
         font-size: 10px;
+        background-color: #f2f2f2;
     }
 }
 
 @media (max-width: 480px) {
     .footer {
         width:100%;
-        line-height: 10px;
-        background-color: #47412d89;
-        height: 5%;
-        bottom: -19.1%;
-
+        line-height: 7px;
+        background-color: #a3a0955b;
+        height: 30px;
+        bottom: 0;
+        margin-left:0;
+        position:relative;
+        margin-top: 12%;
     }
 }
