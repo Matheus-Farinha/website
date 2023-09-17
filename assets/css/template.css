@@ -11,20 +11,6 @@ body {
     height: 45px;
     border-bottom: 1px solid #414326;
 }
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@1,9..40,300&display=swap');
-
-body {
-    margin: 0;
-    background-color: #f2f2f2;
-}
-
-/*
-.top_header {
-    background-color: #222326;
-    height: 45px;
-    border-bottom: 1px solid #414326;
-}
-
 
 .navbar-default {
     background: none;
@@ -91,7 +77,7 @@ li {
     border-top: 2px solid #717171;
     border-left: 2px solid #717171;
     border-right: 2px solid #717171;
-    margin-top: -.65%;
+    margin-top: -9px;
     height:43px;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
@@ -160,7 +146,7 @@ li {
     height: 30px;
     width: 30px;
     margin-left:5px;
-    margin-top: -9%;
+    margin-top: -21px;
 }
 
 .wpp_area a {
@@ -208,14 +194,14 @@ li {
 }
 
 .footer {
-    position: relative;
+    position: absolute;
     width:100%;
     background-color: #a3a0955b;
     height: 55px;
-    bottom: 0;
-    margin-top: 2%;
+    bottom: -30%;
     font-family: 'DM Sans', sans-serif;
     border-top: 1px solid #0e0e0e;
+    
 }
 
 .main_footer_left {
@@ -278,6 +264,7 @@ li {
 .forms {
     margin-top: 8%;
     margin-bottom:7%;
+    margin-left:-12%;
     border-radius: 5px;
     background-color: #f2f2f2;
     font-family: 'DM Sans', sans-serif;
@@ -304,13 +291,13 @@ textarea {
 }
 
 iframe {
-    height: 400px;
-    width: 600px;
+    height: 350px;
+    width: 500px;
     border: none;
     padding: 10px;
     background-color: #0000002a;
-    margin-top: 10%;
-    margin-left: -29%;
+    margin-top: -1%;
+    margin-left: -60%;
 }
 
 .about {
@@ -318,9 +305,9 @@ iframe {
     width: 1000px;
     font-size: 20px;
     color: black;
-    margin-top: 25%; 
+    margin-top: 30%; 
     text-indent: 20px;
-    margin-left: -100%;
+    margin-left:-155%;
 }
 
 .about:nth-child(2){
@@ -483,7 +470,7 @@ iframe {
 @media (min-width: 374px) and (max-width: 480px) {
     .main_nav {
         margin-left: 3%;
-        margin-top: .1%;
+        margin-top: 2px;
     }
 }
 
@@ -601,7 +588,7 @@ iframe {
         float:right;
         font-size: 10px;
         font-weight:600;
-        padding-top:7px;
+        padding-top:14px;
         margin-right:1%; 
     }
 }
@@ -610,12 +597,13 @@ iframe {
     .socialarea {
         background-color: #67a9839d;
         box-shadow: 2px 2px 1px #49775c9d;
-        padding-top:2%;
+        padding-top: 8px;
         position: relative;
         z-index: 99;
         width:180px;
         padding-right: 2%;
         margin-right: 0%;
+        top:-1px;
     }
 }
 
@@ -727,7 +715,8 @@ iframe {
         line-height: 7px;
         background-color: #a3a0955b;
         height: 30px;
-        bottom:0;
+        bottom: 0;
+        position:absolute;
         margin-left:0;
         margin-top: 20%;
     }
